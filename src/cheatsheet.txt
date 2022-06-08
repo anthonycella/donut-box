@@ -8,27 +8,24 @@ Note: these are all properties that are to be added to css selectors for tags, c
 1. Change your selector to use the flexbox display style
   display: flex
 
-2. Change position of content on the x axis
+2. Change position of items on the x axis
   justify-content: [choice]
     [choices]
-      - flex-start (auto): centers content to the left side of the element
-      - center: centers content to the center of the element
-      - flex-end: centers content to the right side of the element
-      - space-between: spaces content evently on the x axis with no space between the outer elements and
+      - flex-start (auto): centers items to the left side of the element
+      - center: centers items to the center of the element
+      - flex-end: centers items to the right side of the element
+      - space-between: spaces items evently on the x axis with no space between the outer elements and
         the sides of the box
-      - space-evenly: spaces content evenly on the x axis with even space between the outer elements and
+      - space-evenly: spaces items evenly on the x axis with even space between the outer elements and
         the sides of the box
-      - space-around: spaces content somewhere between space-between and space-evenly
+      - space-around: spaces items somewhere between space-between and space-evenly
 
 
-2. Change position of content on the y axis
-  justify-content: [choice]
+2. Change position of items on the y axis
+  align-items: [choice]
     [choices]
-      - flex-start (auto): centers content to the top of the element
-      - center: centers content to the center of the y axis of the element
-      - flex-end: centers content to the bottom of the element
-      - space-between: spaces content evently on the y axis with no space between the outer elements and
-        the sides of the box
-      - space-evenly: spaces content evenly on the y axis with even space between the outer elements and
-        the sides of the box
-      - space-around: spaces content somewhere between space-between and space-evenly
+      - flex-start (auto): centers items to the top of the element
+      - center: centers items to the center of the y axis of the element
+      - flex-end: centers items to the bottom of the element
+      - stretch: stretches items to fill the element top to bottom
+      - baseline: items are aligned so that their baselines align
