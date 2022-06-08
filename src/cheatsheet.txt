@@ -21,7 +21,7 @@ Note: these are all properties that are to be added to css selectors for tags, c
       - space-around: spaces items somewhere between space-between and space-evenly
 
 
-2. Change position of items on the y axis
+3. Change position of items on the y axis
   align-items: [choice]
     [choices]
       - flex-start (auto): centers items to the top of the element
